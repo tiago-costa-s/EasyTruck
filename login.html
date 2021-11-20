@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta chatset="UTF-8">
+    <title>Easy Truck</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="text-logo">Easy Truck</h1>
+    <header>       
+        <div id="menu">
+          <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Envio.html">Envio</a></li>
+                <li><a href="rastreio.html">Rastreio</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+         </nav>
+        </div>    
+    </header> 
+
+    <div id="interface">
+        <section id="corpo">
+            <article id="Area do usuario">
+                <form class="forml" action="" method="POST">
+                    <div class="card">
+                        <div class="card-top">
+                            <img class="imglogin" src="imagens/Users.png" alt="Login" height="80" width="80">
+                            <h2 class="titulo">Area do cliente.</Area></h2>
+                            <p>Não têm cadastro? <a href="cadastro.html" >Cadastre-se</a></p>
+                            
+                            <div class="card-group">
+                                <label>Login</label>
+                                <input type="text" class="login-login" name="login" placeholder="Digite seu Login." required>
+                            </div>
+                            <div>
+                                <br>
+                            </div>
+                            <div class="card-group">
+                                <label>Senha</label>
+                                <input type="password" class="senha-login" name="senha" placeholder="Digite sua Senha." required>
+                            </div>
+                            <div class="card-group">
+                                <Lembrar-me><input type="checkbox"> Lembrar-me</Lembrar-me>
+                            </div>
+                            <div>
+                                <br>
+                            </div>
+                            <div class="card-group">
+                                <button type="submit" class="button-login">Acessar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </div>
+    <footer class="rodape">
+        <p>Todos os direitos reservados</p>  
+    </footer>
+    <script src="./js/login.js"></script>
+    <script src="./js/login-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Envio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="text-logo">Easy Truck</h1>
+    <header>       
+        <div id="menu">
+          <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Envio.html">Envio</a></li>
+                <li><a href="rastreio.html">Rastreio</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+         </nav>
+        </div>    
+    </header>
+
+ 
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset><legend>Dados Pessoais</legend> 
+        
+        <div id="nome">
+            <label forn="">Nome:</label>
+            <input type="text" name="nome" required="required" size="25" maxlength="15" placeholder="Nome">
+        </div>
+
+        <div id="sobre">
+            <label forn="">Sobrenome:</label>
+            <input type="text" name="sobreNome" required="required" size="25" maxlength="25" placeholder="Sobrenome">
+        </div>
+
+        <div id="nascimento">
+            <label forn="">Data Nascimento:</label>
+            <input type="date" name="DataNascimento" placeholder="" required>
+        </div>
+    
+        <div id="cpf">
+            <label forn="">CPF:</label>
+            <input type="text" name="cpf" required="required" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \>
+        </div>
+
+        <div id="rg">
+            <label forn="">RG:</label>
+            <input name="rg" required="required" placeholder="RG">
+        </div>
+               
+        <p>Endereço</p>
+        
+        <div>
+            <label forn="">Logradouro:</label>
+            <input name="logradouro" required="required" placeholder="Rua João Carlos">
+        </div>
+
+        <div id="numero">
+            <label forn="">Numero:</label>
+            <input type="number" name="numero" required="required" placeholder="1234">
+        </div>
+
+        <div>
+            <label forn="">Estado:</label>
+            <input name="estado" required="required" placeholder="Minas Gerais">
+        </div>
+
+        <div>
+            <label forn="">Cidade:</label>
+            <input name="cidade" required="required" placeholder="Belo Horizonte">
+        </div>
+
+        <div>
+            <label forn="">Bairro:</label>
+            <input name="bairro" required="required" placeholder="Centro">
+        </div>
+
+        <div id="cep">
+            <label forn="">CEP:</label>
+            <input type="number" name="cep" required="required" placeholder="32000-123">
+        </div>
+
+        <div>
+            <label forn="">Ponto de Referencia:</label>
+            <input name="referencia" required="required" placeholder="Proximo ao Super Mercados BH">
+        </div>
+
+        <div>
+            <label forn="">Telefone:</label>
+            <input type="number" name="logradouro" required="required" placeholder="(DD) 3000-0000">
+        </div>
+
+        <div id="email">
+            <label forn="">e-mail:</label>
+            <input type="email" name="e-mail" required="required" placeholder="exemplo@exemplo.com.br">
+        </div>
+        </fieldset>
+
+        <fieldset id="destinatario"><legend>Dados do Destinatario</legend>
+    
+        <div id="nome fantasia">
+            <label forn="">Nome Fantasia:</label>
+            <input name="fantasia" required="required" placeholder="Lojas Castro">
+        </div>  
+
+        <div id="razão social">
+            <label forn="">Razão Social:</label>
+            <input name="razão" required="required" placeholder="Comercio e Varejo Ltda">
+        </div>     
+    
+        <div id="cnpj">
+            <label forn="">CNPJ:</label>
+            <input type="number" name="cpf" required="required" placeholder="10.123.123/0001-00">
+        </div>
+
+        <div id="inscrição estadual">
+            <label forn="">Inscrição Estadual:</label>
+            <input name="rg" required="" placeholder="123.123.123-00">
+        </div>
+        
+        <p>Endereço</p>
+        
+        <div>
+            <label forn="">Logradouro:</label>
+            <input name="logradouro" required="required" placeholder="Av. Mauro Pereira">
+        </div>
+
+        <div>
+            <label forn="">Estado:</label>
+            <input name="estado" required="required" placeholder="São paulo">
+        </div>
+
+        <div>
+            <label forn="">Cidade:</label>
+            <input name="cidade" required="required" placeholder="Campinas">
+        </div>
+
+        <div>
+            <label forn="">Bairro:</label>
+            <input name="bairro" required="required" placeholder="Centro">
+        </div>
+
+        <div id="cep">
+            <label forn="">CEP:</label>
+            <input type="number" name="cep" required="required" placeholder="cep">
+        </div>
+
+        <div>
+            <label forn="">Ponto de Referencia:</label>
+            <input name="referencia" required="required" placeholder="Proximo ao Super Mercados BH">
+        </div>
+
+        <div>
+            <label forn="">Telefone:</label>
+            <input type="number" name="logradouro" required="required" placeholder="(DD) 3000-0000">
+        </div>
+
+        <div>
+            <label forn="">e-mail:</label>
+            <input type="email" name="e-mail" required="required" placeholder="exemplo@exemplo.com.br">
+        </div>
+        
+        </fieldset>
+
+        <fieldset><legend>Dados do Objeto</legend>
+       
+        <div>
+            <label forn="">Nome do Objeto</label>
+            <input type="text" name="objeto" required="required" placeholder="Exemplo - Calculadora">
+        </div>  
+        
+        <div>
+            <label forn="">Categoria</label>
+            <input type="text" name="Categoria" required="required" placeholder="Exemplo - Eletronico">
+        </div>    
+    
+        <div id="cargo">
+            <label for="cargo">Modalidade de Entrega:</label>
+        <select name="entrega" id="mentrega" required>
+            <option value="normal">Normal ( 10 dias uteis) </option>
+            <option value="express">Express ( 7 dias uteis)</option>
+            <option value="special">Special ( 4 dias uteis)</option>
+            <option value="super Truck">Super Truck ( 48 horas)</option>
+        </select>
+        </div>
+
+        <div div="peso">
+            <label forn="">Peso (g):</label>
+            <input name="peso" required="required" >
+        </div>
+
+        <div>
+            <label forn="">Valor Declarado R$:</label>
+            <input type="number" name="objeto" required="required" placeholder="Exemplo R$ 100,00">
+        </div> 
+       
+        </fieldset>
+       
+       
+        <div id="termo">
+           <P class="termou"><input type="checkbox" name="checkbox" value="termouso" class="texto_box" required="required"> Eu li e concordo com estas regras e condições.</P>
+        </div>
+                 
+
+        <div id="botao">
+            <button name="botao" type="submit">Enviar</button>
+        </div>    
+       
+    
+ </form>
+
+ <script src="script.js" type="text/javascript"></script>  
+
+
+ <footer class="rodape">
+    <p>Todos os direitos reservados</p>  
+ </footer>
+ <script src="./js/login.js"></script>
+ <script src="./js/users.js"></script>
+</body>
+<html>

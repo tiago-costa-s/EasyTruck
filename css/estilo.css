@@ -1,0 +1,492 @@
+
+/*CC DA PAGINA HOME*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Css do Body*/
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}    
+
+
+body{
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: 22px;
+    
+}
+
+/*Css do Titulo*/
+.pagina {
+    height: 100%;
+}
+h1:not(.titulo-rastreio) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    padding: 50px;  
+    margin: 0px; 
+    background-color: rgb(136, 0, 0); 
+}
+
+.text-logo p.usuario-logado{
+    float: right;
+    font-size: 13pt;
+    margin-top: -45px;
+    margin-right: 40px;
+}
+
+.text-logo input.botao-loginout{
+    float: right;
+    margin-top: -45px;
+    margin-right: -20px;
+    border-radius: 30pt;
+}
+
+.text-logo input.botao-loginout:focus{
+    outline: none;
+}
+
+/*Css Menu*/
+nav{
+	background-color: rgb(255, 255, 255);	
+	font-family: tahoma;
+    margin:  0px 0px 0px 0px;      
+}
+
+
+nav ul {
+    padding: 0px;
+    text-align: center;
+}
+
+
+nav li{
+    display: inline;
+    font-size: 20px;
+}
+
+
+nav a {
+	text-decoration: none;
+    color: rgb(136, 0, 0);
+    margin-left: 50px;    
+}
+
+
+/*Css os subtitulos h2,h3,h4*/
+h2,h3,h4 {
+    font-size: 25px;
+    font-family: sans-serif;   
+}
+
+
+/*A Empresa*/
+div.subtitulo{
+    border-color: rgb(218, 218, 218);
+    margin: 0px;
+    padding: 50px;
+    display: inline-block;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 80px;
+    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-bottom: 30px;    
+}
+
+
+
+/*Css do Rodapé*/
+footer{
+    background-color: rgb(136, 0, 0); 
+    padding: 10px;
+    margin: 30px 0px 0px 0px; 
+}
+
+
+/*Css da fonte do rodapé*/
+footer p{
+    color: floralwhite;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+
+
+/*Pagina Devolução*/
+
+/*Css Legend*/
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*Css do Sub titulo*/
+fieldset p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*Layout*/
+fieldset{
+    text-align: right ;
+    width: 50%;
+    min-width: 10%;
+    display: inline-block;
+    padding: 30px;
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+form{
+    width: 69%;
+    display: inline-block;
+    text-align: right;
+    padding: 5vw 0vw 5vw 0vw;    
+}
+
+
+/*Alinhamento dos Inputs*/
+fieldset input {
+    width: 50%;     
+    margin: 10px 100px 0px 0px;
+}
+
+
+/*Alinhamento das Labels*/
+fieldset label{
+    width: 20px;
+    font-size: 22px;
+}
+
+/* Css Rastreio */
+.rastreio{
+    padding-left: 100px;
+    padding-top:20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+    width: auto;
+    height:500px
+}
+
+h1.titulo-rastreio{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt;
+}
+
+h2.subtitulo-rastreio {
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 15pt;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.rastreio-form {
+    width: 1170px;
+    height: 160px;
+    border: 1px solid rgb(124, 122, 122);
+    border-radius: 4pt;
+}
+
+.rastreio-form form {
+    width: auto;
+    height: 40px;
+    padding-top: 0px;
+    padding-left: 15px;
+    margin-top: 70px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.rastreio-form-selection{
+    float:left;
+}
+
+input.rastreio-form-selection:not(:first-child){
+    margin-left:20px;
+}
+
+.rastreio-form label{
+    float: left;
+    font-size: 13pt;
+}
+.label-text{
+    float: left;
+    margin-top: -40px;
+    text-align: right;
+    margin-left: 40px ;
+}
+
+.rastreio-form-text {
+    border-radius: 3pt;
+    margin-top: -10px;
+    float: left;
+    margin-left: 40px;
+    width: 400px;
+    height: 40px;
+}
+
+.rastreio-form-text:disabled {
+    background-color: rgb(179, 179, 179);
+}
+
+.rastreio-form-submit {
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-left:20px;
+    margin-top: -10px;
+    border-radius: 3pt;
+}
+
+.rastreio-form-submit:hover {
+    background-color: rgb(218, 218, 218);
+    transform: scale(1.031);
+    border-radius: 3pt;
+}
+
+.rastreio-form-submit:active{
+    transform: scale(0.95);
+}
+
+#modal{ 
+    background:rgba(0,0,0, 0.5); 
+    width:100%; 
+    height:100%; 
+    position:fixed; 
+    left:0; 
+    top:0; 
+}
+
+.modal-box{ 
+    position: absolute;
+    background:gainsboro;
+    width:50%; 
+    height:70%; 
+    position:absolute; 
+    left: 50%;
+    top:30%; 
+    margin-left: -25%;
+    margin-top:-8%;
+}
+
+.fechar{ 
+    padding:5px 10px; 
+    border:1px solid #CCC; 
+    position:absolute; 
+    right:3px; 
+    top:3px; 
+    border-radius:7px; 
+    color:rgb(53, 53, 53); 
+    cursor:pointer;
+    background-color: rgb(255, 74, 74);
+}
+
+.fechar:hover{ 
+    background-color: rgb(175, 2, 2);
+    color:black; 
+    border-color:#666;
+}
+
+
+
+.modal-box-conteudo table.table-button {
+    margin-top: 55px;
+    width: 20%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 30px;
+    
+    float: left;
+    
+}
+.modal-box-conteudo table.table-conteudo{
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 0.1px;
+    border-radius: 3pt;
+    padding:0px;
+    float: left;
+}
+
+.modal-box-conteudo td:not(.status), th {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 20%;
+    margin: 0px;
+    padding:0px;
+    border: solid black 0.1px;
+    border-radius: 3pt ;
+}
+
+.modal-box-conteudo tr.finalizada {
+    display: none;
+}
+
+.modal-box-conteudo .status-finalizada{
+    background-color: green;
+}
+
+.modal-box-conteudo .status-aguardando {
+    background-color: red;
+}
+
+.modal-box-conteudo .status-transito {
+    background-color: yellow;
+}
+
+.modal-box-conteudo .modal-box-conteudo-button {
+    width: 100%;
+}
+
+.table-button input {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(168, 218, 252);
+    color: rgb(59, 59, 59) ;
+    font-size: 22px;
+    height: 50px;
+    border: solid  rgb(59, 59, 59)  2px;
+    border-radius: 3pt;
+}
+
+.table-button input:hover {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(134, 205, 252);
+    color: black;
+    font-size: 22px;
+    height: 50px;
+    border: solid  black  2px;
+    border-radius: 3pt;
+    transform: scale(1.03);
+}
+
+.table-button input:active {
+    transform: scale(0.95);
+}
+
+/* CSS Rastreio */
+
+img.rastreador {
+    position: relative;
+    width: 900px;
+    height: 100px;
+    left: 40%;
+    margin-left: -30%;
+}
+.rastreamento input {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(168, 218, 252);
+    color: rgb(59, 59, 59) ;
+    font-size: 22px;
+    height: 50px;
+    border: solid  rgb(59, 59, 59)  2px;
+    border-radius: 3pt;
+    text-align: center;
+    width: 300px;
+    margin-top: 5%;
+    margin-left:34.5%;
+}
+
+.rastreamento input:hover {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(134, 205, 252);
+    color: black;
+    font-size: 22px;
+    height: 50px;
+    border: solid  black  2px;
+    border-radius: 3pt;
+    transform: scale(1.03);
+}
+
+.rastreamento input:active {
+    transform: scale(0.95);
+}
+
+
+div.rastreamento {
+    position: relative;
+    left: 50%;
+    margin-left: -35%;
+    width: 70%;
+    height: 500px;
+    
+}
+
+div.rastreamento-conteudo {
+    position: relative;
+    width: 800px;
+    left: 50%;
+    margin-left: -35%;
+}
+
+p.data {
+    float: left;
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 15px;
+    width: 55px;
+    text-align: center;
+    color: gray;
+}
+
+p.conteudo {
+    float: right;
+    font-size: 17px;
+    margin-left: 50px;
+    width: 80%;
+}
+
+.bordatopo {
+    clear: both;
+    border-top: black dotted 1px;
+    width: 90%;
+}
+
+.codigo-rastreio {
+    margin-left: 12%;
+}
+
+
+.corpo-faq {
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 100px;
+    width: 85%;
+    height: 57%;
+}
+
+.corpo-faq .seta{
+}
+
+.corpo-faq .seta:focus {
+    outline: none;
+}
+
+.corpo-faq h2 {
+    display: inline-block;
+    width: 95%;
+}
+
+.corpo-faq p {
+    margin-top: -5px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.corpo-faq p.escondido {
+    display: none;
+}

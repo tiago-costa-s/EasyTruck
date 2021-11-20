@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Rastreio</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <h1 class="text-logo">Easy Truck</h1>
+    <header class="header-menu">
+        <div id="menu">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-item-link" href="index.html">Home</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="devolucao.html">Devolução</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="rastreio.html">Rastreio</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="faleconosco.html">Fale Conosco</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="ajuda.html">Ajuda</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="rastreio">
+        <h1 class="titulo-rastreio">Rastreamento</h1>
+        <h2 class="subtitulo-rastreio">Rastreie sua devolução</h2>
+        <div class="rastreio-form">
+            <form action="get">
+                <input type="radio" name="tiporastreio" id="numero-rastreio" value="Digite o código que deseja rastrear" class="rastreio-form-selection" >
+                <label class="rastreio-form-selection" for="numero-rastreio">Número do Rastreio</label>
+                <input type="radio" name="tiporastreio" id="consultar-usuario" value="Consultar Devolução" class="rastreio-form-selection" checked>
+                <label class="rastreio-form-selection" for="consultar-usuario">Consultar Devouluções do Usuário</label>
+                <label class="label-text" for="input-consulta">Digite o código que deseja rastrear</label>
+                <input type="text" name="input-consulta" id="" class="rastreio-form-text" placeholder="Número do Rastreio" required>
+                <input type="submit" name="input-submit" class="rastreio-form-submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+    <script src="./js/geradev-teste.js"></script>
+</body>
+
+</html>

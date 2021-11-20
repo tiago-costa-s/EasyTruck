@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta chatset="UTF-8">
+    <title>Easy Truck</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Easy Truck</h1>
+    <header>       
+        <div id="menu"></div>
+          <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Envio.html">Envio</a></li>
+                <li><a href="rastreio.html">Rastreio</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+         </nav>
+        </div>    
+    </header> 
+    <div id="interface">
+        <section id="corpo">
+            <article id="area de cadastro">
+                <table>
+                    <tr>
+                        <td>
+                            <h3 class="h3-cad">Conheça as vantagens de ter um cadastro.</h3>
+                            <li>Códigos de rastreios em um único lugar.</li>
+                            <li>Mais agilidade para cadastrar uma coleta.</li>
+                            <li>Mais agilidade para obter ajuda.</li>
+                            <li>Área exclusiva para relacionamento.</li>
+                            <p>Cadastre-se e aproveite estas e outras vantagens.</p>
+                        </td>
+                        <td class="oculto" style="visibility: hidden;">
+                            1
+                        </td>
+                        <td>
+                            <form class="formc" action="" method="POST">
+                                <div class="card">
+                                    <div class="cad-top">
+                                        <h2 class="titulo">Área de cadastro.</Area></h2>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <div class="cad-97">
+                                                        <input type="text" name="nome" placeholder="Nome" class="cadastro-nome" required>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cad-100">
+                                                        <input type="text" name="sobrenome" placeholder="Sobrenome" class="cadastro-sobrenome" required>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data Nascimento:</td>
+                                                <td colspan="2">
+                                                    <div class="cad-100">
+                                                       <input type="date" name="nascimento" class="cadastro-datanascimento" required>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="cad-100">
+                                                        <input type="text" name="cpf" required placeholder="CPF"class="cadastro-cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="cad-100">
+                                                        <input type="text" name="login" required placeholder="Login para acesso"class="cadastro-login">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="cad-100">
+                                                        <input type="email" name="email" required placeholder="Digite seu E-Mail"class="cadastro-email">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="cad-100">
+                                                        <input type="password" name="password" required placeholder="Digite sua senha" class="cadastro-senha">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table> 
+                                        <div class="card-group">
+                                            <button type="submit">Cadastrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </div>
+</body>
+<footer class="rodape">
+    <p>Todos os direitos reservados</p>  
+</footer>
+<script src="./js/users.js"></script>
+</html>

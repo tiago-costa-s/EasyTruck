@@ -1,0 +1,271 @@
+
+/*CC DA PAGINA HOME*/
+
+/*Css do Body*/
+html, body{
+    margin: 0px;
+    padding: 0px;
+    
+}    
+
+
+body{
+    font-family: sans-serif;
+    font-size: 22px;
+    
+}
+
+/*Css do Titulo*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    padding: 50px;  
+    margin: 0px; 
+    background-color: rgb(136, 0, 0); 
+}
+
+
+/*Css Menu*/
+nav{
+	background-color: rgb(255, 255, 255);	
+	font-family: tahoma;
+    margin:  0px 0px 0px 0px;      
+}
+
+
+nav ul {
+    padding: 0px;
+    text-align: center;
+}
+
+
+nav li{
+    display: inline;
+    font-size: 20px;
+}
+
+
+nav a {
+	text-decoration: none;
+    color: rgb(136, 0, 0);
+    margin-left: 50px;    
+}
+
+
+/*Css os subtitulos h2,h3,h4*/
+h2,h3,h4 {
+    font-size: 25px;
+    font-family: sans-serif;   
+}
+
+
+/*A Empresa*/
+div.subtitulo{
+    border-color: rgb(218, 218, 218);
+    margin: 0px;
+    padding: 50px;
+    display: inline-block;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 80px;
+    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-bottom: 30px;    
+}
+
+
+/*Pagina Devolução*/
+/*Css Legend*/
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*Css do Sub titulo*/
+fieldset p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*Layout*/
+fieldset {
+    text-align: right ;
+    width: 50%;
+    min-width: 10%;
+    display: inline-block;
+    padding: 30px;
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+form {
+    width: 69%;
+    display: inline-block;
+    text-align: right;
+    padding: 2vw 0vw 4vw 0vw;    
+}
+
+
+/*Alinhamento dos Inputs*/
+fieldset input {
+    width: 50%;     
+    margin: 10px 100px 0px 0px;
+}
+
+
+/*Alinhamento das Labels*/
+fieldset label {
+    width: 20px;
+    font-size: 22px;
+}
+
+/*Modalidade de Entrega*/
+#cargo{ 
+    text-align: center;
+    margin: 10px 100px 0px 0px;
+}
+
+
+/*Termos de Uso*/
+p.termou{
+    color: rgb(47, 13, 170);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+button{
+    padding: 5px;
+    width: 200px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+    border:solid rgb(189, 189, 189) 2px;
+
+}
+
+
+
+
+/*Css do Rodapé*/
+footer{
+    background-color: rgb(136, 0, 0); 
+    padding: 10px;
+    margin: 30px 0px 0px 0px; 
+}
+
+
+/*Css da fonte do rodapé*/
+footer p{
+    color: floralwhite;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*Css da Pagina de login e cadastro*/
+
+.forml{
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+.card{
+    box-shadow: 1px 1px 5px #cccccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.card-top{
+    text-align: center;
+}
+.imglogin{
+    box-shadow: 3px 3px 6px #494949;
+    border-radius: 40px;
+}
+.titulo{
+    color:rgb(136, 0, 0); 
+    font-family: sans-serif;
+}
+.card-group > label{
+    color: rgb(136, 0, 0); 
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    padding: 5px;
+}
+.card-group > button{
+    border-radius: 20px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(136, 0, 0), rgb(51, 0, 0));
+    color: white;
+    outline: 0;
+    padding: 10px;
+}
+.formc{
+    width: 500px;
+    margin: auto;
+    display: inline-block;
+    align-content: right;
+}
+table{
+    margin: auto;
+}
+.cad-top{
+    text-align: justify;
+    font-size: 15px;
+}
+.cad-top > h2{
+    text-align: center;
+}
+.cad-100 > input{
+    border-radius: 5px;
+    width: 100%;
+}
+.cad-97 > input{
+    border-radius: 5px;
+    width: 97%;
+}
+.h3-cad{
+    color: rgb(136, 0, 0);
+}
+
+.text-logo p.usuario-logado{
+    float: right;
+    font-size: 13pt;
+    margin-top: -45px;
+    margin-right: 40px;
+}
+
+.text-logo input.botao-loginout{
+    float: right;
+    margin-top: -45px;
+    margin-right: -20px;
+    border-radius: 30pt;
+}
+
+.text-logo input.botao-loginout:focus{
+    outline: none;
+}
+
+.ja-logado {
+    text-align: left;
+}

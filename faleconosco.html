@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="text-logo">Easy Truck</h1>
+    <header>       
+        <div id="menu">
+          <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Envio.html">Envio</a></li>
+                <li><a href="rastreio.html">Rastreio</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+         </nav>
+        </div>    
+    </header>
+
+ 
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset><legend>Fale Conosco</legend> 
+        
+        <div id="nome">
+            <label forn="">Nome:</label>
+            <input type="text" name="nome" required="required" size="25" maxlength="15" placeholder="Nome">
+        </div>
+
+        <div id="sobre">
+            <label forn="">Sobrenome:</label>
+            <input type="tex" name="sobreNome" required="required" size="25" maxlength="25" placeholder="Sobrenome">
+        </div>               
+        
+        <div>
+            <label forn="">Estado:</label>
+            <input name="estado" required="required" placeholder="Minas Gerais">
+        </div>
+
+        <div>
+            <label forn="">Cidade:</label>
+            <input name="cidade" required="required" placeholder="Belo Horizonte">
+        </div>       
+
+        <div>
+            <label forn="">Telefone:</label>
+            <input type="" name="logradouro" required="required" placeholder="(DD) 3000-0000">
+            <input type="" name="logradouro" required="required" placeholder="(DD) 3000-0000">
+        </div>
+
+        <div id="email">
+            <label forn="">e-mail:</label>
+            <input type="email" name="e-mail" required="required" placeholder="exemplo@exemplo.com.br">
+        </div>
+
+        <div id="codigorastreio">
+            <label forn="">Codigo de Rastreio:</label>
+            <input type="text" name="nome"  placeholder="Exemplo - AB58460848004BR">
+        </div>
+        
+        <p>Observação</p>
+        <div id="observacao">
+            <label for="text"></label>
+            <textarea name="observacao" required="required" rows="10" cols="90"></textarea></br>
+        </div>
+        </fieldset>  
+
+        <div id="botao">
+            <button name="botao" type="submit">Enviar</button>
+        </div>     
+
+ </form>
+
+ <script src="script.js" type="text/javascript"></script>  
+
+
+ <footer class="rodape">
+    <p>Todos os direitos reservados</p>  
+ </footer>
+ <script src="./js/login.js"></script>
+ <script src="./js/users.js"></script>
+</body>
